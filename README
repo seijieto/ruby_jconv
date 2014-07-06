@@ -1,0 +1,17 @@
+Ruby Server Side Japanese Charset Conversion Program
+
+mailto:seijieto@gmail.com
+
+This is a web based Japanese character set conversion utility
+program. Verified to work with apache (ver. 2.0.43) and ruby
+(ver. 1.6.8).
+
+1. Install "apache" (or equivalent) where applicable.
+      http://www.apache.org/
+2. Install "ruby" where applicable.
+      http://www.ruby-lang.org/en/
+3. Install "uconv" where applicable.
+      http://www.yoshidam.net/Ruby_ja.html
+4. Put "jconv.html" in htdocs (or equivalent) directory.
+5. Put "jconv.rb" in cgi-bin (or equivalent) directory.
+6. Patch to "cgi.rb" with "diff_cgi.rb."
